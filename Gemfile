@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 ruby "2.3.1"
 
-gem "rails", "5.0.0.racecar1"
+gem "rails", "5.0.0"
 gem 'responders', '~> 2.0'
 gem "pg"
 gem "figaro"
@@ -19,13 +19,13 @@ gem "jquery-rails"
 gem "sass-rails", "~> 5.0"
 gem "uglifier"
 gem "email_validator"
-gem "rails-i18n"
+gem "rails-i18n", ">= 4.0.2"
 gem 'pygmentize'
 gem 'redcarpet'
 gem "bootstrap-sass"
 gem "font-awesome-sass"
-gem "react-rails", '1.6.0'
-gem 'react-bootstrap-rails'
+gem "react-rails", "1.6.0"
+gem 'react-bootstrap-rails', '>= 0.28.3'
 gem "lodash-rails"
 gem 'js-routes'
 gem 'autoprefixer-rails'
