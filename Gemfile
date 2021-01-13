@@ -21,7 +21,7 @@ gem "uglifier"
 gem "email_validator"
 gem "rails-i18n"
 gem 'pygmentize'
-gem 'redcarpet'
+gem 'redcarpet', '>= 3.5.1'
 gem "bootstrap-sass"
 gem "font-awesome-sass"
 gem "react-rails", '1.6.0'
