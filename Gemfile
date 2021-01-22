@@ -32,7 +32,7 @@ gem 'autoprefixer-rails'
 gem "jquery-slick-rails"
 gem 'money-rails'
 gem 'gibbon'
-gem 'ruby-trello'
+gem 'ruby-trello', '>= 1.5.1'
 gem 'raygun4ruby', github: 'ssaunier/raygun4ruby', branch: 'rails-5-deprecation-warnings'
 gem 'sitemap_generator'
 gem 'builder'
