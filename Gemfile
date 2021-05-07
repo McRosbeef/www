@@ -1,11 +1,11 @@
 source "https://rubygems.org"
 ruby "2.3.1"
 
-gem "rails", "5.0.0.racecar1"
-gem 'responders', '~> 2.0'
+gem "rails", "5.2.4.6"
+gem 'responders', '~> 2.4', '>= 2.4.0'
 gem "pg"
 gem "figaro"
-gem "simple_form"
+gem "simple_form", ">= 4.0.0"
 gem "rest-client"
 gem 'meetup_client'
 gem "redis"
@@ -15,22 +15,22 @@ gem 'redis-rack', github: 'redis-store/redis-rack', branch: 'master'
 gem 'redis-actionpack', github: 'redis-store/redis-actionpack', branch: 'master'
 gem 'redis-rails', github: 'redis-store/redis-rails', branch: 'master'
 
-gem "jquery-rails"
-gem "sass-rails", "~> 5.0"
+gem "jquery-rails", ">= 4.1.1"
+gem "sass-rails", "~> 5.0", ">= 5.0.5"
 gem "uglifier"
 gem "email_validator"
-gem "rails-i18n"
+gem "rails-i18n", ">= 4.0.2"
 gem 'pygmentize'
 gem 'redcarpet'
 gem "bootstrap-sass"
 gem "font-awesome-sass"
-gem "react-rails", '1.6.0'
-gem 'react-bootstrap-rails'
-gem "lodash-rails"
-gem 'js-routes'
+gem "react-rails", "1.6.0"
+gem 'react-bootstrap-rails', '>= 0.28.3'
+gem "lodash-rails", ">= 4.6.1"
+gem 'js-routes', '>= 1.2.5'
 gem 'autoprefixer-rails'
-gem "jquery-slick-rails"
-gem 'money-rails'
+gem "jquery-slick-rails", ">= 1.6.0.2"
+gem 'money-rails', '>= 1.6.0'
 gem 'gibbon'
 gem 'ruby-trello'
 gem 'raygun4ruby', github: 'ssaunier/raygun4ruby', branch: 'rails-5-deprecation-warnings'
