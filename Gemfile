@@ -26,7 +26,7 @@ gem "bootstrap-sass"
 gem "font-awesome-sass"
 gem "react-rails", '1.6.0'
 gem 'react-bootstrap-rails'
-gem "lodash-rails"
+gem "lodash-rails", ">= 4.17.21"
 gem 'js-routes'
 gem 'autoprefixer-rails'
 gem "jquery-slick-rails"
@@ -74,5 +74,5 @@ end
 
 group :production do
   gem "rails_12factor"
-  gem "puma"
+  gem "puma", ">= 4.3.8"
 end
