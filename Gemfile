@@ -32,7 +32,7 @@ gem 'autoprefixer-rails'
 gem "jquery-slick-rails"
 gem 'money-rails'
 gem 'gibbon'
-gem 'ruby-trello'
+gem 'ruby-trello', '>= 1.4.1'
 gem 'raygun4ruby', github: 'ssaunier/raygun4ruby', branch: 'rails-5-deprecation-warnings'
 gem 'sitemap_generator'
 gem 'builder'
@@ -48,7 +48,7 @@ end
 
 group :development, :test do
   gem "spring"
-  gem "letter_opener"
+  gem "letter_opener", ">= 1.4.1"
 
   # After Raisl 5 official release, just keep "rspec-rails"
   gem "rspec-rails", git: "https://github.com/rspec/rspec-rails.git", branch: "master"
@@ -69,7 +69,7 @@ group :development do
 end
 
 group :test do
-  gem "capybara"
+  gem "capybara", ">= 2.7.0"
 end
 
 group :production do
