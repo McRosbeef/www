@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 ruby "2.3.1"
 
-gem "rails", "5.0.0.racecar1"
-gem 'responders', '~> 2.0'
+gem "rails", "5.0.0"
+gem 'responders', '~> 2.2', '>= 2.2.0'
 gem "pg"
 gem "figaro"
 gem "simple_form"
@@ -16,7 +16,7 @@ gem 'redis-actionpack', github: 'redis-store/redis-actionpack', branch: 'master'
 gem 'redis-rails', github: 'redis-store/redis-rails', branch: 'master'
 
 gem "jquery-rails"
-gem "sass-rails", "~> 5.0"
+gem "sass-rails", "~> 5.0", ">= 5.0.5"
 gem "uglifier"
 gem "email_validator"
 gem "rails-i18n"
