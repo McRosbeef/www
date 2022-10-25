@@ -36,7 +36,7 @@ gem 'ruby-trello'
 gem 'raygun4ruby', github: 'ssaunier/raygun4ruby', branch: 'rails-5-deprecation-warnings'
 gem 'sitemap_generator'
 gem 'builder'
-gem 'rack-utf8_sanitizer'
+gem 'rack-utf8_sanitizer', '>= 1.8.0'
 
 source "https://rails-assets.org" do
   gem 'rails-assets-mdi'
