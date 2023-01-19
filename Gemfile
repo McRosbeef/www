@@ -1,11 +1,11 @@
 source "https://rubygems.org"
 ruby "2.3.1"
 
-gem "rails", "5.0.0.racecar1"
-gem 'responders', '~> 2.0'
+gem "rails", "6.1.7.1"
+gem 'responders', '~> 3.0', '>= 3.0.0'
 gem "pg"
 gem "figaro"
-gem "simple_form"
+gem "simple_form", ">= 4.0.0"
 gem "rest-client"
 gem 'meetup_client'
 gem "redis"
@@ -16,7 +16,7 @@ gem 'redis-actionpack', github: 'redis-store/redis-actionpack', branch: 'master'
 gem 'redis-rails', github: 'redis-store/redis-rails', branch: 'master'
 
 gem "jquery-rails"
-gem "sass-rails", "~> 5.0"
+gem "sass-rails", "~> 5.0", ">= 5.0.8"
 gem "uglifier"
 gem "email_validator"
 gem "rails-i18n"
@@ -62,7 +62,7 @@ group :development do
   gem "pry-byebug"
   gem "pry-rails"
   gem "quiet_assets"
-  gem "annotate"
+  gem "annotate", ">= 2.7.5"
   gem "binding_of_caller"
   gem "better_errors"
   gem 'rack-mini-profiler'
