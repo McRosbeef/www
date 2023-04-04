@@ -1,11 +1,11 @@
 source "https://rubygems.org"
 ruby "2.3.1"
 
-gem "rails", "5.0.0.racecar1"
-gem 'responders', '~> 2.0'
+gem "rails", "6.1.7.3"
+gem 'responders', '~> 3.0', '>= 3.0.0'
 gem "pg"
 gem "figaro"
-gem "simple_form"
+gem "simple_form", ">= 5.0.0"
 gem "rest-client"
 gem 'meetup_client'
 gem "redis"
@@ -15,28 +15,28 @@ gem 'redis-rack', github: 'redis-store/redis-rack', branch: 'master'
 gem 'redis-actionpack', github: 'redis-store/redis-actionpack', branch: 'master'
 gem 'redis-rails', github: 'redis-store/redis-rails', branch: 'master'
 
-gem "jquery-rails"
-gem "sass-rails", "~> 5.0"
+gem "jquery-rails", ">= 4.4.0"
+gem "sass-rails", "~> 6.0", ">= 6.0.0"
 gem "uglifier"
 gem "email_validator"
 gem "rails-i18n"
 gem 'pygmentize'
-gem 'redcarpet'
-gem "bootstrap-sass"
+gem 'redcarpet', '>= 3.5.1'
+gem "bootstrap-sass", ">= 3.4.0"
 gem "font-awesome-sass"
 gem "react-rails", '1.6.0'
 gem 'react-bootstrap-rails'
-gem "lodash-rails"
+gem "lodash-rails", ">= 4.17.21"
 gem 'js-routes'
 gem 'autoprefixer-rails'
 gem "jquery-slick-rails"
 gem 'money-rails'
-gem 'gibbon'
-gem 'ruby-trello'
+gem 'gibbon', '>= 3.4.4'
+gem 'ruby-trello', '>= 1.5.1'
 gem 'raygun4ruby', github: 'ssaunier/raygun4ruby', branch: 'rails-5-deprecation-warnings'
 gem 'sitemap_generator'
 gem 'builder'
-gem 'rack-utf8_sanitizer'
+gem 'rack-utf8_sanitizer', '>= 1.8.0'
 
 source "https://rails-assets.org" do
   gem 'rails-assets-mdi'
@@ -62,10 +62,10 @@ group :development do
   gem "pry-byebug"
   gem "pry-rails"
   gem "quiet_assets"
-  gem "annotate"
+  gem "annotate", ">= 2.7.5"
   gem "binding_of_caller"
-  gem "better_errors"
-  gem 'rack-mini-profiler'
+  gem "better_errors", ">= 2.8.0"
+  gem 'rack-mini-profiler', '>= 0.10.1'
 end
 
 group :test do
@@ -74,5 +74,5 @@ end
 
 group :production do
   gem "rails_12factor"
-  gem "puma"
+  gem "puma", ">= 4.3.12"
 end
