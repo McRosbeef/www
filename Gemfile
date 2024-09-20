@@ -74,5 +74,5 @@ end
 
 group :production do
   gem "rails_12factor"
-  gem "puma"
+  gem "puma", ">= 5.6.9"
 end
