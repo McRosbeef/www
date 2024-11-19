@@ -27,7 +27,7 @@ gem "font-awesome-sass"
 gem "react-rails", '1.6.0'
 gem 'react-bootstrap-rails'
 gem "lodash-rails"
-gem 'js-routes'
+gem 'js-routes', '>= 2.3.0'
 gem 'autoprefixer-rails'
 gem "jquery-slick-rails"
 gem 'money-rails'
