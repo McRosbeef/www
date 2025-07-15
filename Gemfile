@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 ruby "2.3.1"
 
-gem "rails", "5.0.0.racecar1"
+gem "rails", "7.0.0"
 gem 'responders', '~> 2.0'
 gem "pg"
 gem "figaro"
@@ -16,18 +16,18 @@ gem 'redis-actionpack', github: 'redis-store/redis-actionpack', branch: 'master'
 gem 'redis-rails', github: 'redis-store/redis-rails', branch: 'master'
 
 gem "jquery-rails"
-gem "sass-rails", "~> 5.0"
+gem "sass-rails", "~> 6.0", ">= 6.0.0"
 gem "uglifier"
 gem "email_validator"
-gem "rails-i18n"
+gem "rails-i18n", ">= 4.0.3"
 gem 'pygmentize'
 gem 'redcarpet'
 gem "bootstrap-sass"
 gem "font-awesome-sass"
-gem "react-rails", '1.6.0'
-gem 'react-bootstrap-rails'
+gem "react-rails", "1.8.0"
+gem 'react-bootstrap-rails', '>= 0.29.2'
 gem "lodash-rails"
-gem 'js-routes'
+gem 'js-routes', '>= 1.4.12'
 gem 'autoprefixer-rails'
 gem "jquery-slick-rails"
 gem 'money-rails'
