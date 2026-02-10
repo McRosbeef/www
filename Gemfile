@@ -31,7 +31,7 @@ gem 'js-routes'
 gem 'autoprefixer-rails'
 gem "jquery-slick-rails"
 gem 'money-rails'
-gem 'gibbon'
+gem 'gibbon', '>= 2.2.4'
 gem 'ruby-trello'
 gem 'raygun4ruby', github: 'ssaunier/raygun4ruby', branch: 'rails-5-deprecation-warnings'
 gem 'sitemap_generator'
